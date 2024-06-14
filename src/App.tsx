@@ -7,7 +7,7 @@ function App() {
     <div className='py-10 flex flex-col h-full gap-7'>
       <header className="flex flex-col items-center gap-3 ">
         <div className="bg-white rounded-full instagram">
-          <img src="../logo.png" className='w-24' />
+          <img src="../logo-min.png" className='w-24' />
         </div>      
         <section className='flex flex-col px-5 items-center '>
           <p className='text-white font-bold md:text-xl sm:text-lg text-center'>Paróquia Santo Antônio de Itaitinga</p>
@@ -29,7 +29,7 @@ function App() {
         </Button>
       </main>
       <footer className='flex justify-center items-center h-32'>
-        <img src="../logo-pascom.png" className='w-24' />
+        <img src="../logo-pascom-min.png" className='w-24' />
       </footer>
     </div>
   )
