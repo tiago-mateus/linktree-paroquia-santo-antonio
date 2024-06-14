@@ -5,7 +5,7 @@ import { Button } from './components/Button'
 function App() {
 
   return (
-    <div className='h-screen py-10 flex flex-col gap-7 animate-fadeInAll'>
+    <div className='h-screen py-10 flex flex-col gap-7'>
     <header className="flex flex-col items-center gap-1">
       <div className="bg-white rounded-full instagram">
         <img src="../logo.png" className='w-24' />
