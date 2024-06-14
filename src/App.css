@@ -4,9 +4,8 @@
 
 body{
   font-family: "Montserrat", sans-serif;
-  background: url('../public/bg.png');
+  background: url('../public/fundo.png');
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .instagram{
