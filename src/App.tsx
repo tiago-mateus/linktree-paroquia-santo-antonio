@@ -4,17 +4,17 @@ import { Button } from './components/Button'
 
 function App() {
   return (
-    <div className='py-10 flex flex-col gap-7'>
-      <header className="flex flex-col items-center gap-3">
+    <div className='py-10 flex flex-col h-full h-screen gap-7'>
+      <header className="flex flex-col items-center gap-3 ">
         <div className="bg-white rounded-full instagram">
           <img src="../logo.png" className='w-24' />
         </div>      
-        <section className='flex flex-col px-5 items-center'>
+        <section className='flex flex-col px-5 items-center '>
           <p className='text-white font-bold md:text-xl sm:text-lg text-center'>Paróquia Santo Antônio de Itaitinga</p>
           <p className='text-white font-light italic text-sm'>@paroquiasantoantonioitaitinga</p>
         </section>
       </header> 
-      <main className='flex flex-col items-center gap-5'>
+      <main className='flex flex-col items-center gap-5 '>
         <Button text='Secretaria Paroquial' link='https://wa.me/message/WAVMNOTPCQB3M1'
           className='opacity-0 animate-fadeIn500' >
           <Send color="#451a03"/>
@@ -28,6 +28,9 @@ function App() {
           <Facebook color="#451a03"/>
         </Button>
       </main>
+      <footer className='flex justify-center items-center h-full'>
+        <img src="../logo-pascom.png" className='w-24' />
+      </footer>
     </div>
   )
 }
