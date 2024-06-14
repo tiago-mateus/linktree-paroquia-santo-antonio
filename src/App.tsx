@@ -4,7 +4,7 @@ import { Button } from './components/Button'
 
 function App() {
   return (
-    <div className='py-10 flex flex-col h-full h-screen gap-7'>
+    <div className='py-10 flex flex-col h-full gap-7'>
       <header className="flex flex-col items-center gap-3 ">
         <div className="bg-white rounded-full instagram">
           <img src="../logo.png" className='w-24' />
@@ -28,7 +28,7 @@ function App() {
           <Facebook color="#451a03"/>
         </Button>
       </main>
-      <footer className='flex justify-center items-center h-full'>
+      <footer className='flex justify-center items-center h-32'>
         <img src="../logo-pascom.png" className='w-24' />
       </footer>
     </div>
