@@ -12,8 +12,8 @@ function App() {
       </div>
       
       <section className='flex flex-col items-center'>
-        <p className='text-white font-bold text-xl'>Paróquia Santo Antônio</p>
-        <p className='text-white font-light italic'>@paroquiaitaitinga</p>
+        <p className='text-white font-bold text-xl'>Paróquia Santo Antônio de Itaitinga</p>
+        <p className='text-white font-light italic'>@paroquiasantoantonioitaitinga</p>
       </section>
     </header> 
     <main className='flex flex-col items-center gap-5'>
