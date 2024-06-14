@@ -1,4 +1,4 @@
-import { Send, Youtube } from 'lucide-react'
+import { Facebook, Send, Youtube } from 'lucide-react'
 import './App.css'
 import { Button } from './components/Button'
 
@@ -22,6 +22,9 @@ function App() {
       </Button>
       <Button text='Youtube' link='https://www.youtube.com/@paroquiasantoantoniodeitai4416'>
         <Youtube color="#451a03"/>
+      </Button>
+      <Button text='Facebook' link='https://www.facebook.com/profile.php?id=100008817789375'>
+        <Facebook color="#451a03"/>
       </Button>
     </main>
     </div>
