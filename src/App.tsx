@@ -9,11 +9,11 @@ function App() {
     <header className="flex flex-col items-center gap-3">
       <img src="../logo.png" className='w-24' />
       <section className='flex flex-col items-center'>
-        <p className='text-white font-bold text-2xl'>Paróquia Santo Antônio</p>
+        <p className='text-white font-bold text-xl'>Paróquia Santo Antônio</p>
         <p className='text-white font-light italic'>@paroquiaitaitinga</p>
       </section>
     </header> 
-    <main className='flex flex-col items-center gap-2'>
+    <main className='flex flex-col items-center gap-3'>
       <Button text='Secretaria Paroquial' link='https://wa.me/message/WAVMNOTPCQB3M1'>
       <Send color="#451a03"/>
       </Button>
