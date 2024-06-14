@@ -6,7 +6,7 @@ function App() {
   return (
     <div className='py-10 flex flex-col h-full gap-7'>
       <header className="flex flex-col items-center gap-3 ">
-        <div className="bg-white rounded-full instagram">
+        <div className="bg-white rounded-full instagram animate-instagramBorder">
           <img src="../logo-min.png" className='w-24' />
         </div>      
         <section className='flex flex-col px-5 items-center '>
@@ -28,8 +28,8 @@ function App() {
           <Facebook color="#451a03"/>
         </Button>
       </main>
-      <footer className='flex justify-center items-center h-32'>
-        <img src="../logo-pascom-min.png" className='w-24' />
+      <footer className='flex justify-center items-end h-32'>
+        <img src="../logo-pascom-min.png" className='w-24 opacity-60' />
       </footer>
     </div>
   )
