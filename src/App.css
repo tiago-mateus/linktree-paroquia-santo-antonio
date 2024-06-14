@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 body{
-  background-color: #360A0A;
+  font-family: "Montserrat", sans-serif;
+  background: url('../public/bg.png');
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
 }
