@@ -7,7 +7,7 @@ export default {
         fadeIn500: 'fadeInButtons 500ms forwards',
         fadeIn1000: 'fadeInButtons 1000ms forwards',
         fadeIn1500: 'fadeInButtons 1500ms forwards',
-        fadeInAll: 'fadeIn 100ms forwards',
+        fadeInAll: 'fadeIn 1000ms forwards',
         instagramBorder: 'instagramBorder 2000ms infinite'
       },
       keyframes: {

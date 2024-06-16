@@ -1,6 +1,6 @@
 export function Header(){
     return (
-      <header className="flex flex-col items-center">
+      <header className="flex flex-col items-center animate-fadeInAll">
         <div className="bg-white rounded-full instagram animate-instagramBorder">
           <img src="../logo-min.png" className='w-24' />
         </div>      
