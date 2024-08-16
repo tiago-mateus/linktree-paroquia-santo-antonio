@@ -3,6 +3,7 @@ import { Header } from './components/Header'
 import { Footer } from './components/Footer'
 import './App.css'
 import { FacebookLogo, WhatsappLogo, YoutubeLogo } from '@phosphor-icons/react'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       </Button>
     </main>
     <Footer/>
+    <Analytics />
   </div>
   )
 }
